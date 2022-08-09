@@ -6,10 +6,10 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Governance
-    network: avalanche
+    network: dijets
     source:
-      startBlock: 1005510
-      address: "0xb0Ff2b1047d9E8d294c2eD798faE3fA817F43Ee1"
+      startBlock: 180
+      address: "0xD9B935095054C4d1D46a03cB66C246c5273e8785"
       abi: Governance
     mapping:
       kind: ethereum/events
