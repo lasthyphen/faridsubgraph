@@ -1,16 +1,16 @@
 specVersion: 0.0.2
-description: Pangolin is a decentralized exchange for swapping Ethereum and Avalanche assets on Avalanche.
-repository: https://github.com/pangolindex/subgraph
+description: Farid is a decentralized exchange for swapping Digital assets and for Council Governance on Dijets.
+repository: https://github.com/lasthyphen/faridsubgraph
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: avalanche
+    network: dijets
     source:
-      address: "0xefa94DE7a4656D787667C749f7E1223D71E9FD88"
+      address: "0x28a30BFf4669972226aDE2Dbcb045abC2DdDB0Af"
       abi: Factory
-      startBlock: 56877
+      startBlock: 153
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
